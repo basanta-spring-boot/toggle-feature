@@ -1,0 +1,13 @@
+togglz:
+  features:
+    NEW_PRODUCT:
+      enabled: false
+    DISCOUNT_APPLIED:
+      enabled: false
+  console:
+    secured: false
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'togglz'
